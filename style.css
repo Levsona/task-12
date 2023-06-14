@@ -112,7 +112,61 @@ img{
     border-bottom-style: solid;
     border-color: #585656;
 }
+.footer2{
+    background-image: url(assets/image/foto5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding:180px 21px 28px 21px;
+    color: white;
 
+}
+.PHOTOGRAPH{
+    margin-left: 15px;
+}
+.footer1 h3{
+    padding-bottom: 8px;
+}
+.footer3{
+    background-image: url(assets/image/foto6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding:180px 21px 28px 21px;
+    color: white;
+    margin-top: 36px;
+}
+.footer4{
+    margin-left: 13px;
+    max-width: 341px;
+    margin-top: 36px;
+    border-style: solid;
+    border-color: #575555;
+}
+.inside{
+    padding: 18px 15px 12px 20px;
+
+}
+.footer5{
+    display: none;
+}
+.footer6{
+    display: none;
+}
+footer{
+    margin-top: 70px;
+    text-align: center;
+    background-color: #000000;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    align-items: center;
+}
+footer h1 a{
+    color: white;
+}
+footer h1 a img{
+    padding-right: 14px;
+}
 @media screen and ( min-width:376px ){
     .burger{
         display: none;
@@ -163,16 +217,34 @@ img{
     .section1{
         display: flex;
         text-align: left;
+        justify-content: space-between;
         
     }
     .section2{
         max-width: 341px;
+        max-height: 350px;
+        margin-top: 15px;
     }
+    
     .section3{
         max-width: 341px;
         margin-left: 18px;
     }
-
+    .footer5{
+        display: block;
+    }
+    .footer5{
+        max-width: 341px;
+        margin-top: 36px;
+        border-style: solid;
+        border-color: #575555;
+    }
+    .inside1{
+        padding: 18px 15px 12px 20px;
+    
+    }
+    
+    
 }
 @media screen and (min-width:835px) {
     .main2{
@@ -231,5 +303,36 @@ img{
     }
     .header1{
         padding-left:70px ;
+    }
+    .section4{
+        display: block;
+        border-style: solid;
+        border-color: #686767;
+        margin:18px 13px 47px 13px;
+        max-width: 341px;
+        max-height: 350px;
+    }
+    .mnews{
+        display: none;
+    }
+    .section{
+        display: none;
+    }
+    .section1{
+        margin-top: 34px;
+        margin-bottom: 52px;
+    }
+    .footer6{
+        display: block;
+    }
+    .footer6{
+        max-width: 341px;
+        margin-top: 36px;
+        border-style: solid;
+        border-color: #575555;
+    }
+    .inside2{
+        padding: 18px 15px 12px 20px;
+    
     }
 }
