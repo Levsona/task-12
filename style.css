@@ -122,7 +122,8 @@ img{
 
 }
 .PHOTOGRAPH{
-    margin-left: 15px;
+    margin-left: 63px;
+
 }
 .footer1 h3{
     padding-bottom: 8px;
@@ -134,12 +135,9 @@ img{
     text-align: left;
     padding:180px 21px 28px 21px;
     color: white;
-    margin-top: 36px;
 }
 .footer4{
-    margin-left: 13px;
     max-width: 341px;
-    margin-top: 36px;
     border-style: solid;
     border-color: #575555;
 }
@@ -153,6 +151,7 @@ img{
 .footer6{
     display: none;
 }
+
 footer{
     margin-top: 70px;
     text-align: center;
@@ -231,18 +230,33 @@ footer h1 a img{
         margin-left: 18px;
     }
     .footer5{
+        max-width: 340px;
         display: block;
-    }
-    .footer5{
-        max-width: 341px;
-        margin-top: 36px;
         border-style: solid;
         border-color: #575555;
+        margin-right: 66px;
     }
-    .inside1{
-        padding: 18px 15px 12px 20px;
-    
+    .footer1{
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 67px;
     }
+    .footer2{
+        max-width: 700px;
+        grid-column-start:1;
+        grid-column-end: 3;
+    }
+    .footer3{
+        max-width: 700px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .footer4{
+        max-width: 341px;
+    }
+
+
     
     
 }
@@ -325,14 +339,44 @@ footer h1 a img{
     .footer6{
         display: block;
     }
+    .footer{
+        margin-right: 130px;
+    }
+    .footer1{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer2{
+        max-width: 779px;
+        height: 400px;
+        padding-top: 277px;
+    }
+    .footer3{
+        max-width: 779px;
+        height: 400px;
+        padding-top: 277px;
+        margin-top: 50px;
+        
+    }
+    .footer4{
+        max-width: 380px;
+        height: 280px;
+        grid-column-start: 3;
+        grid-row-end: 2;
+
+    }
+    .footer5{
+        max-width: 380px;
+        height: 280px;
+        grid-column-start:3;
+        grid-column-end:4;
+        
+    }
     .footer6{
-        max-width: 341px;
-        margin-top: 36px;
-        border-style: solid;
-        border-color: #575555;
+         border-style: solid;
+        border-color: #686767;
+        max-width: 380px;
+        height: 280px;
+        grid-column-start: 3;
     }
-    .inside2{
-        padding: 18px 15px 12px 20px;
-    
-    }
+   
 }
